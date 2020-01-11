@@ -1,0 +1,2 @@
+# tabslTags
+OXID Artikeltags-Modul
