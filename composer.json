@@ -1,0 +1,27 @@
+{
+	"name": "tabsl/tabsltags",
+	"version": "1.0.0",
+	"description": "SEO-Daten (Titel, Beschreibung, Keywords) und Text für Artikel-Tags.",
+	"type": "oxideshop-module",
+	"license": [
+		"proprietary"
+	],
+	"homepage": "https://oxid-module.eu",
+	"author": [{
+		"name": "Tobias Merkl",
+		"homepage": "https://oxid-module.eu"
+	}],
+	"support": {
+		"email": "support@oxid-module.eu"
+	},
+	"autoload": {
+		"psr-4": {
+			"Tabsl\\Tags\\": "../../../source/modules/tabsl/tabslTags"
+		}
+	},
+	"extra": {
+		"oxideshop": {
+			"target-directory": "tabsl/tabslTags"
+		}
+	}
+}
